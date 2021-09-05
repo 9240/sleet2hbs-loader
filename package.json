@@ -1,0 +1,28 @@
+{
+  "name": "sleet2hbs-loader",
+  "version": "1.0.0",
+  "description": "sleet2hbs loader for webpack",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack"
+  },
+  "peerDependencies": {
+    "webpack": "^4.0.0"
+  },
+  "author": "9240",
+  "homepage": "https://github.com/9240/sleet2hbs-loader",
+  "bugs": "https://github.com/9240/sleet2hbs-loader/issues",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "sleet": "^0.1.1",
+    "sleet-handlebars": "^0.1.0",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "keywords": [
+    "sleet",
+    "handldbars",
+    "webpack"
+  ]
+}
